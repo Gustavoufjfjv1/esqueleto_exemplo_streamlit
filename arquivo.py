@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="Cuidados domésticos", layout="wide", page_icon="H:\Python\esqueleto_exemlo_streamlit\servico-de-limpeza.png")
 
-path = r"H:\Python\esqueleto_exemlo_streamlit\Tabela 1.1.2.xls"
+path = r"Tabela 1.1.2.xls"
 
 @st.cache_data
 def carregar_dados(path):
