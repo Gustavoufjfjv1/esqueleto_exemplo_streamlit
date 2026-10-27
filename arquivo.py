@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-st.set_page_config(page_title="Cuidados domésticos", layout="wide", page_icon="H:\Python\esqueleto_exemlo_streamlit\servico-de-limpeza.png")
+st.set_page_config(page_title="Cuidados domésticos", layout="wide", page_icon="servico-de-limpeza.png")
 
 path = r"Tabela 1.1.2.xls"
 
